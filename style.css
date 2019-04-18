@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(./SCRIPTIN.ttf) format("truetype");
+}
+#home h1{
+    font-family: "My Custom Font";
+    font-size: 100px;
+    color:#3d3d3f;
+    line-height: 1.5em;
+}
+#home{
+    min-height: 700px;
+}
+nav{
+    border-bottom: 1px rgb(114, 18, 11) solid;
+    background-color: rgb(253, 206, 203);
+    opacity: 0.7;
+}
+a{
+    color: rgb(114, 18, 11);
+}
+a:hover, #contact a:hover{
+    color:black;
+}
+#contact a{
+    color:rgb(78, 78, 78);
+}
+#home { 
+    text-align: center;
+    padding-top:  256px;
+    padding-bottom: 256px;
+}
+.myimg{
+    background: url(./img/myimg.jpg) no-repeat center;
+    background-size: cover;
+    max-width:300px;
+    height:300px;
+}
+.blog{
+    background: url(./img/blog.JPG) no-repeat center;
+    background-size: cover;
+    width:350px;
+    height:250px;
+}
+.dev{
+    background: url(./img/dev.JPG) no-repeat center;
+    background-size: cover;
+    width:350px;
+    height:250px;
+}
+.js{
+    background: url(./img/weightconverter.JPG) no-repeat center;
+    background-size: cover;
+    width:350px;
+    height:250px;
+}
+.cms{
+    background: url(./img/cms.JPG) no-repeat ;
+    background-size: cover;
+    width:350px;
+    height:250px;
+}
+
+.header{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(201, 66, 57) ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#projects{
+    padding-top: 50px;
+}
+#about{
+    padding-bottom: 100px;
+    padding-top: 180px;
+}
+#about p, .text{
+    color: rgb(78, 78, 78);
+    line-height: 1.4em;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.skills ul{
+    list-style: none;
+}
+.skills li{
+    display: inline;
+    font-size: 25px;
+    font-weight: 1.2em;
+    color:#2e0c0c;
+    padding: 0 43px;
+}
