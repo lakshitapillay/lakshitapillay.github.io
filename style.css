@@ -91,3 +91,4 @@ a:hover, #contact a:hover{
     color:#2e0c0c;
     padding: 0 43px;
 }
+.navbar-nav { flex-direction:row !important; }
