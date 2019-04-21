@@ -2,6 +2,10 @@
     font-family: "My Custom Font";
     src: url(./SCRIPTIN.ttf) format("truetype");
 }
+html, body{
+    width: 100% !important;
+    height:100%;
+}
 #home h1{
     font-family: "My Custom Font";
     font-size: 100px;
@@ -39,26 +43,26 @@ a:hover, #contact a:hover{
 .blog{
     background: url(./img/blog.JPG) no-repeat center;
     background-size: cover;
-    width:350px;
-    height:250px;
+    width:449px;
+    min-height:250px;
 }
 .dev{
     background: url(./img/dev.JPG) no-repeat center;
     background-size: cover;
-    width:350px;
-    height:250px;
+    width:449px;
+    min-height:250px;
 }
 .js{
     background: url(./img/weightconverter.JPG) no-repeat center;
     background-size: cover;
-    width:350px;
-    height:250px;
+    width:449px;
+    min-height:250px;
 }
 .cms{
     background: url(./img/cms.JPG) no-repeat ;
     background-size: cover;
-    width:350px;
-    height:250px;
+    width:449px;
+    min-height:250px;
 }
 
 .header{
@@ -72,8 +76,8 @@ a:hover, #contact a:hover{
     padding-top: 50px;
 }
 #about{
-    padding-bottom: 100px;
-    padding-top: 180px;
+    padding-bottom: 80px;
+    padding-top: 50px;
 }
 #about p, .text{
     color: rgb(78, 78, 78);
@@ -91,4 +95,17 @@ a:hover, #contact a:hover{
     color:#2e0c0c;
     padding: 0 43px;
 }
+@media only screen and (min-width: 310px) {
+    .blog, .dev, .cms, .js{
+        min-width:300px;
+        min-height: 175px;
+    }
+    html, body{
+        width:100%;
+    }
+    #projects .row{
+        padding-left: 10px !important;
+    }
+}
+
 .navbar-nav { flex-direction:row !important; }
