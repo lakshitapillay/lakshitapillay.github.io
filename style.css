@@ -10,7 +10,7 @@ html, body{
     font-family: "My Custom Font";
     font-size: 100px;
     color:#3d3d3f;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 #home{
     min-height: 700px;
@@ -35,7 +35,7 @@ a:hover, #contact a:hover{
     padding-bottom: 256px;
 }
 .myimg{
-    background: url(./img/myimg.jpg) no-repeat center;
+    background: url(./img/myimg.jpeg) no-repeat top;
     background-size: cover;
     max-width:300px;
     height:300px;
@@ -44,25 +44,21 @@ a:hover, #contact a:hover{
     background: url(./img/blog.JPG) no-repeat center;
     background-size: cover;
     width:449px;
-    min-height:250px;
 }
 .dev{
     background: url(./img/dev.JPG) no-repeat center;
     background-size: cover;
     width:449px;
-    min-height:250px;
 }
 .js{
     background: url(./img/weightconverter.JPG) no-repeat center;
     background-size: cover;
     width:449px;
-    min-height:250px;
 }
 .cms{
     background: url(./img/cms.JPG) no-repeat ;
     background-size: cover;
     width:449px;
-    min-height:250px;
 }
 
 .header{
@@ -95,7 +91,7 @@ a:hover, #contact a:hover{
     color:#2e0c0c;
     padding: 0 43px;
 }
-@media only screen and (min-width: 310px) {
+@media only screen and (max-width: 400px) {
     .blog, .dev, .cms, .js{
         min-width:300px;
         min-height: 175px;
@@ -105,6 +101,28 @@ a:hover, #contact a:hover{
     }
     #projects .row{
         padding-left: 10px !important;
+    }
+    #home{
+        padding-left:0px;
+    }
+    #home h1{
+        font-size: 50px;
+    }
+    #about{
+        padding-top:0px;
+        padding-bottom: 0px;
+    }
+
+    .header{
+        font-size: 50px;
+        padding-top: 0 px;
+        padding-bottom:0 px;
+    }
+    #projects{
+        padding-top: 0px;
+    }
+    #skills .header, #contact .header{
+        padding-bottom: 0px;
     }
 }
 
