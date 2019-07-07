@@ -20,29 +20,29 @@
             <div>
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a href="#home" class="nav-link mx-2">Home</a>
+                  <a href="#section-home" class="nav-link mx-2">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#about" class="nav-link mx-2">About</a>
+                  <a href="#section-about" class="nav-link mx-2">About</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#projects" class="nav-link mx-2">Projects</a>
+                  <a href="#section-projects" class="nav-link mx-2">Projects</a>
                 </li>       
                 <li class="nav-item">
-                  <a href="#skills" class="nav-link mx-2">Skills</a>
+                  <a href="#section-skills" class="nav-link mx-2">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#contact" class="nav-link mx-2">Contact</a>
+                  <a href="#section-contact" class="nav-link mx-2">Contact</a>
                 </li>                                
               </ul>
             </div>
           </div>
         </nav>
     </div>
-     <div class="container" id="home">
+     <div class="container" id="section-home">
             <h1>Lakshita Pillay</h1>
     </div>
-    <section id="about">
+    <section id="section-about">
       <div class="container">
         <div class="row py-5 px-3">
             <div class="col-md-6 rounded-circle myimg mx-auto">
@@ -55,7 +55,7 @@
         </div>
       </div>
     </section>
-    <section id="projects">
+    <section id="section-projects">
       <div class="container">
         <div class="header">Projects</div>
         <br/>
@@ -65,39 +65,48 @@
                 <p class="h4 pb-2">Full stack social network app using MongoDB, Node.js, Express.js, React.js and Bootstrap 4 </p>
                 <p>Extensive API using Express.js, Stateless JWT for authentication</p>
                 <p>Integrated React with Express backend</p>
+                <p>Back-end is complete. Front-end is ongoing</p>
                 <p><a class="font-italic text-secondary" href="https://github.com/lakshitapillay/devconnector">Code</a></p>
             </div>
         </div>
         <div class="row py-5 px-3 mb-5 border-bottom border-secondary rounded">
             <div class="col-md-6 container py-3 text">
-              <p class="h4 pb-2">Personal blog using SQLite, Django and Bootstrap 4</p>
-              <p>Built URL patterns and views using Django for backend </p>
-              <p>Used Inbuilt Django admin site for authenticating access to features in the website</p>
-              <p><a class="font-italic text-secondary" href="https://github.com/lakshitapillay/personal_blog">Code</a></p>
+              <p class="h4 pb-2"><i>StoryBooks</i> A Web App using Node.js and MongoDB for creating for public or private stories</p>
+              <p>Used google oauth for authentication and handlebars.js for templates engine.</p>
+              <p>Private stories are protected from other users.</p>
+              <p><a class="font-italic text-secondary mr-3" href="https://github.com/lakshitapillay/storybooks">Code</a><a href="https://gorgeous-saguaro-11054.herokuapp.com" class="font-italic text-secondary">Deployed App</a></p>
             </div>
-            <div class="col-md-6 blog mx-auto rounded"></div>
+            <div class="col-md-6 storybooks mx-auto rounded"></div>
         </div>
         <div class="row py-5 px-3 mb-5 border-bottom border-secondary rounded">
-            <div class="col-md-6 js mx-auto rounded"></div>
+          <div class="col-md-6 vidjot mx-auto rounded"></div>
+          <div class="col-md-6 container py-3 text">
+            <p class="h4 pb-2"><i>Vidjot</i> A web app using Node.js and MongoDB for jotting down your video ideas.</p>
+            <p>Passport.js for authentication and bcrypt.js for encryption. Your video ideas are only for you to see and are protected from other users.</p>
+            <p class="mb-0"><a class="font-italic text-secondary mr-3" href="https://github.com/lakshitapillay/vidjot">Code</a> <a href="https://pacific-lowlands-44507.herokuapp.com" class="font-italic text-secondary">Deployed App</a></p>
+          </div>
+        </div>
+        <div class="row py-5 px-3 mb-5 border-bottom border-secondary rounded">
             <div class="col-md-6 container py-3 text">
               <p class="h4 pb-2">JavaScript Applications</p>
               <p>Created simple applications using Vanilla JS and Bootstrap 4 like weight converter app, bookmarker app that accesses the local storage, multistage user forms, etc. </p>
               <p class="mb-0"><a class="font-italic text-secondary" href="https://github.com/lakshitapillay/weightconverterapp">Code for weightconverter app</a></p>
               <p><a class="font-italic text-secondary" href="https://github.com/lakshitapillay/bookmarkerapp">Code for bookmarker app</a></p>
             </div>
+            <div class="col-md-6 js mx-auto rounded"></div>
         </div>
         <div class="row py-5 px-3 mb-5 border-bottom border-secondary rounded">
-            <div class="col-md-6 container py-3 text">
+          <div class="col-md-6 cms mx-auto rounded"></div>  
+          <div class="col-md-6 container py-3 text">
               <p class="h4 pb-2">Bootstrap UIs</p>
               <p>Responsive Content Management System Admin UI containing home page, posts, edit posts, logout, etc. using Bootstrap </p>
               <p>Portfolio website using Bootstrap and CSS</p>
               <p><a class="font-italic text-secondary" href="https://github.com/lakshitapillay/lakshitapillay.github.io">Code for portfolio website</a></p>
             </div>
-            <div class="col-md-6 cms mx-auto rounded"></div>
         </div>
       </div>
     </section>
-    <section id="skills">
+    <section id="section-skills">
         <div class="header">Skills</div>
         <div class="container border-bottom border-secondary py-5 px-3 mb-3 text-center">
             <div class="h2 my-5 pl-4 text-center" style="color:rgb(99, 99, 99); ">Web Tools</div>
@@ -118,7 +127,7 @@
             </ul>
         </div>
     </section>
-    <section id="contact">
+    <section id="section-contact">
       <div class="container">
         <div class="header mb-5">Contact Me</div>
         <div class="row py-5 px-3 mb-5">
@@ -129,5 +138,14 @@
       </div>
     </section>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.0.3/smooth-scroll.min.js" integrity="sha256-EIZl7Pr4/qnWFLybMHaKJ50sYnZK/SexOem5dnXsjNA=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(function (){
+      var scroll = new SmoothScroll('a[href*="#section-"]',{ speed: 500 });
+    })
+  </script>
 </body>
 </html>

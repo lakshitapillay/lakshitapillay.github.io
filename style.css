@@ -6,13 +6,13 @@ html, body{
     width: 100% !important;
     height:100%;
 }
-#home h1{
+#section-home h1{
     font-family: "My Custom Font";
     font-size: 100px;
     color:#3d3d3f;
     line-height: 1.7em;
 }
-#home{
+#section-home{
     min-height: 700px;
 }
 nav{
@@ -26,10 +26,10 @@ a{
 a:hover, #contact a:hover{
     color:black;
 }
-#contact a{
+#section-contact a{
     color:rgb(78, 78, 78);
 }
-#home { 
+#section-home { 
     text-align: center;
     padding-top:  256px;
     padding-bottom: 256px;
@@ -40,8 +40,13 @@ a:hover, #contact a:hover{
     max-width:300px;
     height:300px;
 }
-.blog{
-    background: url(./img/blog.JPG) no-repeat center;
+.storybooks{
+    background: url(./img/storybooks.PNG) no-repeat center;
+    background-size: cover;
+    width:449px;
+}
+.vidjot{
+    background: url(./img/vidjot.PNG) no-repeat center;
     background-size: cover;
     width:449px;
 }
@@ -68,14 +73,14 @@ a:hover, #contact a:hover{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-#projects{
+#section-projects{
     padding-top: 50px;
 }
-#about{
+#section-about{
     padding-bottom: 80px;
     padding-top: 50px;
 }
-#about p, .text{
+#section-about p, .text{
     color: rgb(78, 78, 78);
     line-height: 1.4em;
     font-weight: 400;
@@ -99,16 +104,16 @@ a:hover, #contact a:hover{
     html, body{
         width:100%;
     }
-    #projects .row{
+    #section-projects .row{
         padding-left: 10px !important;
     }
-    #home{
+    #section-home{
         padding-left:0px;
     }
-    #home h1{
+    #section-home h1{
         font-size: 50px;
     }
-    #about{
+    #section-about{
         padding-top:0px;
         padding-bottom: 0px;
     }
@@ -118,10 +123,10 @@ a:hover, #contact a:hover{
         padding-top: 0 px;
         padding-bottom:0 px;
     }
-    #projects{
+    #section-projects{
         padding-top: 0px;
     }
-    #skills .header, #contact .header{
+    #section-skills .header, #section-contact .header{
         padding-bottom: 0px;
     }
 }
